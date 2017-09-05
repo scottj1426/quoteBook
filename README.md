@@ -165,7 +165,7 @@ __code__
 ```html
  <input type="text" placeholder="Add new quote!" ng-model='newQuoteText'>
   <input type="text" placeholder="Quotes author!" ng-model='newQuoteAuthor'>
-  <button ng-click="addQuote()">Add Quote</button>
+  <button ng-click="addQuote">Add Quote</button>
   <div>
     Filter: <input type="text" ng-model='filterText'/>
   </div>
